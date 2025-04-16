@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>App Web Sederhana</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>App Web Sederhana</h1>
+    <nav>
+      <a onclick="navigate('home')">Home</a>
+      <a onclick="navigate('info')">Info</a>
+      <a onclick="navigate('portfolio')">Portofolio</a>
+    </nav>
+    <button class="toggle-mode" onclick="toggleDark()">Mode Gelap</button>
+  </header>
 
+  <main>
+    <section id="home" class="active">
+      <h2>Beranda</h2>
+      <p>Selamat datang! Ini adalah halaman utama dari aplikasi web sederhana ini.</p>
+    </section>
+
+    <section id="info">
+      <h2>Info Pembuat</h2>
+      <p>Halo! Saya Angeline Patricia dari kelas XI CCS, seorang pelajar yang sedang belajar membuat aplikasi web dengan HTML, CSS, dan JavaScript.</p>
+    </section>
+
+    <section id="portfolio">
+      <h2>Portofolio</h2>
+      <ul>
+        <li>Desain Website Toko Online</li>
+        <li>Blog Pribadi</li>
+        <li>Aplikasi Catatan</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 - Dibuat oleh Angeline Patricia</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
